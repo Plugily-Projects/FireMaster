@@ -1,0 +1,27 @@
+name: FireMaster
+main: me.TomTheDeveloper.FireMaster
+version: 1.0
+commands:
+  leave:
+    description: Teleports you to the End!
+    usage: leave
+  firemaster:
+    description: All the arena commands!
+    usage: /Firemaster
+  addsigns:
+    usage: /addsigns
+    description: Adds signs to the plugin!
+  smartreload:
+    usage: /smartreload
+    description: Smart reloads the plugin
+  smartstop:
+    usage: /smartstop
+    description: stops the server when all the games are finished!
+  stats:
+    usage: /stats
+    description: See your stats!
+  join:
+    usage: /join firemaster <ARENA>
+    description: Join a firemaster game!
+softdepend: [Vault, BarAPI]
+depend: [GameAPI]
