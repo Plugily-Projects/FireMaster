@@ -1,5 +1,5 @@
 name: FireMaster
-main: me.TomTheDeveloper.FireMaster
+main: me.tomthedeveloper.FireMaster
 version: 1.0
 commands:
   leave:
